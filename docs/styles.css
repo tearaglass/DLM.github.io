@@ -41,10 +41,10 @@ a:link {
             }
 
 #myname {
-    top: 235px;
+    top: 25%;
     height: 90px;
     float: left;
-    position: relative;
+    position: fixed;
     display: block;
     margin-left: 10px;
     margin-right: 10px;
@@ -52,26 +52,22 @@ a:link {
 }
 
     #projects {
-        position: relative;
+        position: fixed;
         width:50px;
-        top: 320px;
         display:block;
         float: left;
         padding: 10px;
-        left: 10%;
-
+        left:25%;
     }
-
         #cv {
-            position: relative;
-            top: 320px;
+            position: fixed;
             width: 50px;
             display:block;
             float: left;
             padding: 10px;
-            left: 25%
-
+            left:10%;
         }
+        /*
             #viewer {
                 top: 80px;
                 left: 50%;
@@ -85,6 +81,11 @@ a:link {
                 float: right;
                 background-color: lightyellow;
             }
+            */
+                #headimg {
+                    float: right;
+
+                }
 
 
 /* width */
