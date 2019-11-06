@@ -6,8 +6,7 @@
 }
 
 body {
-    background-image: url("IMG_7599.JPG");
-    background-repeat: no-repeat;
+    background-color: rgb(255, 173, 217);
 }
     h1 {
         font-size: 60px;
@@ -17,18 +16,18 @@ body {
     }
 
         h2 {
-            font-size: 60px;
+            font-size: 50px;
             font-family: 'Marck Script', cursive;
             
         }
 
 a:link {
-    color: rgb(39, 66, 187);
+    color: rgb(100, 5, 253);
     text-decoration: none;
 }
 
     a:visited{
-        color: rgb(78, 0, 204);
+        color: rgb(100, 5, 253);
     }
 
         a:hover {
@@ -47,7 +46,7 @@ a:link {
     position: fixed;
     display: block;
     padding: 10px;
-    left: 65px;
+    left: 50px;
     width: 750px;
     top: 15px;
 }
@@ -58,7 +57,7 @@ a:link {
         display:block;
         float: left;
         padding: 10px;
-        top: 80px;
+        top: 90px;
         left: 50px;
         
     }
@@ -69,7 +68,7 @@ a:link {
             float: left;
             padding: 10px;
             left: 265px;
-            top: 80px;
+            top: 90px;
         }
             #contact {
                 position: fixed;
@@ -78,16 +77,9 @@ a:link {
                 float: left;
                 padding: 10px;
                 left: 450px;
-                top: 80px;
+                top: 90px;
             }
-           #headimg{
-               position: fixed;
-               display: block;
-               float: left;
-               top: 25%;
-               left: 25%;
-               padding: 10px;
-           } 
+
         /*
             #viewer {
                 top: 80px;
