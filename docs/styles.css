@@ -8,18 +8,18 @@
 body {
     background-color: rgb(0, 0, 0);
 }
-    h1 {
-        font-size: 60px;
-        font-family: 'Lakki Reddy', cursive;
-        color: rgb(223, 241, 175);
-        text-shadow: 3px 2px #0346ff;
-    }
 
-        h2 {
-            font-size: 50px;
-            font-family: 'Marck Script', cursive;
-            
-        }
+h1 {
+    font-size: 60px;
+    font-family: 'Lakki Reddy', cursive;
+    color: rgb(223, 241, 175);
+    text-shadow: 3px 2px #0346ff;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Marck Script', cursive;
+}
 
 a:link {
     color: rgb(100, 5, 253);
@@ -50,36 +50,38 @@ a:link {
     left: 50px;
     width: 750px;
     top: 15px;
+
 }
 
-    #projects {
-        position: fixed;
-        width:50px;
-        display:block;
-        float: left;
-        padding: 10px;
-        top: 90px;
-        left: 50px;
-        
-    }
-        #cv {
-            position: fixed;
-            width: 50px;
-            display:block;
-            float: left;
-            padding: 10px;
-            left: 265px;
-            top: 90px;
-        }
-            #contact {
-                position: fixed;
-                width: 50px;
-                display:block;
-                float: left;
-                padding: 10px;
-                left: 450px;
-                top: 90px;
-            }
+#projects {
+    position: fixed;
+    width:50px;
+    display:block;
+    float: left;
+    padding: 10px;
+    top: 90px;
+    left: 50px;
+}
+
+#cv {
+    position: fixed;
+    width: 50px;
+    display:block;
+    float: left;
+    padding: 10px;
+    left: 265px;
+    top: 90px;
+}
+
+ #contact {
+    position: fixed;
+    width: 50px;
+    display:block;
+    float: left;
+    padding: 10px;
+    left: 450px;
+    top: 90px;
+}
 
         /*
             #viewer {
@@ -98,7 +100,7 @@ a:link {
             */
 
 
-
+/*scrollbar*/
 /* width */
 ::-webkit-scrollbar {
     width: 20px;
