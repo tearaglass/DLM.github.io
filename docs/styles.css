@@ -44,7 +44,7 @@ a:link {
     top: 235px;
     height: 90px;
     float: left;
-    position: fixed;
+    position: relative;
     display: block;
     margin-left: 10px;
     margin-right: 10px;
@@ -52,7 +52,7 @@ a:link {
 }
 
     #projects {
-        position: fixed;
+        position: relative;
         width:50px;
         top: 320px;
         display:block;
@@ -63,7 +63,7 @@ a:link {
     }
 
         #cv {
-            position: fixed;
+            position: relative;
             top: 320px;
             width: 50px;
             display:block;
@@ -81,7 +81,7 @@ a:link {
                 height: 600px;
                 width: 620px;
                 box-shadow: 5px 5px 5px 3px rgb(252, 215, 238);
-                position: fixed;
+                position: relative;
                 float: right;
                 background-color: lightyellow;
             }
