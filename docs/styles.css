@@ -57,6 +57,7 @@ a:link {
         display:block;
         float: left;
         padding: 10px;
+        top: 50%;
         left:25%;
     }
         #cv {
@@ -66,6 +67,7 @@ a:link {
             float: left;
             padding: 10px;
             left:10%;
+            top:50%;
         }
         /*
             #viewer {
