@@ -22,12 +22,12 @@ body {
         }
 
 a:link {
-    color: rgb(85, 116, 255);
+    color: rgb(39, 66, 187);
     text-decoration: none;
 }
 
     a:visited{
-        color: rgb(99, 2, 255);
+        color: rgb(78, 0, 204);
     }
 
         a:hover {
@@ -48,6 +48,7 @@ a:link {
     padding: 10px;
     left: 50px;
     width: 750px;
+    top: 25px;
 }
 
     #projects {
@@ -55,19 +56,29 @@ a:link {
         width:50px;
         display:block;
         float: left;
-        padding: 50px;
-        top: 50px;
+        padding: 10px;
+        top: 100px;
         left: 50px;
+        
     }
         #cv {
             position: fixed;
             width: 50px;
             display:block;
             float: left;
-            padding: 50px;
-            left: 300px;
-            top: 50px;
+            padding: 10px;
+            left: 250px;
+            top: 100px;
         }
+            #contact {
+                position: fixed;
+                width: 50px;
+                display:block;
+                float: left;
+                padding: 10px;
+                left: 425px;
+                top: 100px;
+            }
            #headimg{
                position: fixed;
                display: block;
