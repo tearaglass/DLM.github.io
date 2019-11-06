@@ -69,6 +69,11 @@ a:link {
             left:25%;
             top:50%;
         }
+           #headimg{
+               position: fixed;
+               display: block;
+               float: left;
+           } 
         /*
             #viewer {
                 top: 80px;
