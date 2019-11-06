@@ -52,7 +52,7 @@ a:link {
 }
 
     #projects {
-        position: fixed;
+        position: relative;
         width:50px;
         display:block;
         float: left;
@@ -61,7 +61,7 @@ a:link {
         left:50%;
     }
         #cv {
-            position: fixed;
+            position: relative;
             width: 50px;
             display:block;
             float: left;
