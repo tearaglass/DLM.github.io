@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(255, 221, 221);
+    background-image: url("../docs/images/IMG_7599.JPG")
 }
     h1 {
         font-size: 60px;
@@ -41,33 +41,32 @@ a:link {
             }
 
 #myname {
-    top: 25%;
-    height: 90px;
+    height: 20px;
     float: left;
-    position: relative;
+    position: fixed;
     display: block;
-    margin-left: 10px;
-    margin-right: 10px;
-    left: 5%;
+    padding: 10px;
+    left: 50px;
+    width: 750px;
 }
 
     #projects {
-        position: relative;
+        position: fixed;
         width:50px;
         display:block;
         float: left;
-        padding: 10px;
-        top: 50%;
-        left: 25%;
+        padding: 50px;
+        top: 50px;
+        left: 50px;
     }
         #cv {
-            position: relative;
+            position: fixed;
             width: 50px;
             display:block;
             float: left;
-            padding: 10px;
-            left:10%;
-            top:50%;
+            padding: 50px;
+            left: 300px;
+            top: 50px;
         }
            #headimg{
                position: fixed;
@@ -75,6 +74,7 @@ a:link {
                float: left;
                top: 25%;
                left: 25%;
+               padding: 10px;
            } 
         /*
             #viewer {
