@@ -5,6 +5,12 @@
     src: "https://fonts.googleapis.com/css?family=Abril+Fatface|Inconsolata|Lakki+Reddy|Marck+Script&display=swap";
 }
 
+html {
+    box-sizing: border-box
+  }
+  *, *::before, *::after {
+    box-sizing: inherit
+  }
 
 body {
     background-color: rgb(0, 0, 0);
@@ -67,9 +73,6 @@ ul a:link {
                 font-style: italic;
             }
             
-
-
-
 ul {
     list-style-type: none;
     display: block;
@@ -91,7 +94,18 @@ li {
         padding: 8px;
       }
 
-
+#middle {
+    background-color: rgb(248, 179, 179);
+    position: relative;
+    display: block;
+    float: none;
+    width: 100%;
+    height: 800px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: lightblue;
+}
 /*
 #projects {
     position: fixed;
