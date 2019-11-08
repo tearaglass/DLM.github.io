@@ -18,7 +18,7 @@ body {
 
 h1 {
     font-size: 60px;
-    font-family: 'Lakki Reddy', cursive;
+    font-family: 'Lakki Reddy';
     color: rgb(223, 241, 175);
     text-shadow: 3px 2px #0346ff;
 }
@@ -49,10 +49,11 @@ h2 {
     left: 50px;
     
 }
-#namelink{
+#namelink {
     text-decoration: none;
     color: rgb(223, 241, 175);
 }
+
 
 ul a:link {
     color: rgb(100, 5, 253);
