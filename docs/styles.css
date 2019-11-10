@@ -22,10 +22,11 @@ h1 {
     font-family: 'Lakki Reddy';
     color: #94aa2a;
     text-shadow: 3px 2px #3a3d2b;
+
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Marck Script', cursive;
 }
 
@@ -46,12 +47,19 @@ h3 {
 }
 
 #navigation {
+    padding: 20px;
     position: relative;
     display: block;
+    float: right;
+    top: 30%;
+    width: 80%;
+}
+/*  
+
     top: 10px;
     margin: 20px;
-    padding: 20px;
-}
+    height: 20px;
+*/
 
 #myname {
     height: 20px;
@@ -60,6 +68,7 @@ h3 {
     float: left;
     left: 50px;
     top: 10px;
+    width: 90%;
     
 }
 
@@ -71,10 +80,10 @@ h3 {
 
 #middle {
     background-color: #e5d8bf;
-    position: relative;
+    position: fixed;
     display: block;
     float: none;
-    width: 100%;
+    width: 60%;
     padding: 20px;
     border-style: solid;
     border-width: 1px;
