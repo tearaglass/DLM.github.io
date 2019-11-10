@@ -55,7 +55,7 @@ p {
 #namelink {
     text-decoration: none;
     color: #94aa2a;
-    width: 100%;
+    width: 50%;
     position: absolute;
     margin: 0 auto;
     left: 10px;
@@ -67,6 +67,7 @@ p {
     border-width: 1px;
     background-color: #55442a;
     height: 40px;
+    width: 100%;
 }
 
 /*  
@@ -88,10 +89,11 @@ p {
 */
 #headnav {
     list-style-type: none;
-    text-align: center;
     display: inline-block;
-    width: 100%;
+    text-align: right;
+    width: 80%;
     margin: 0 auto;
+    padding-left:10px;
 }  
 
 li {
