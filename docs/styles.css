@@ -36,6 +36,12 @@ h3 {
     font-size: 30px;
 }
 
+p {
+    font-family: 'Roboto Slab', serif;
+    color: #23251e;
+    font-size: 25px;
+}
+
 #top {
     background-image: url("images/IMG_7599.JPG");
     position: relative;
