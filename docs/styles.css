@@ -12,8 +12,10 @@ body {
     float: none;
     position: absolute;
     height: 70%;
-    left: 10%;
-    top: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
 }
 
 h1 {
