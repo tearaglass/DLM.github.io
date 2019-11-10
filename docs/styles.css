@@ -33,12 +33,18 @@ h3 {
     font-family: 'Roboto Slab', serif;
     color: #9dab86;
     font-size: 20px;
+    margin: 20px;
+    display: block;
+    position: inline-block;
 }
 
 p {
     font-family: 'Roboto Slab', serif;
     color: #23251e;
     font-size: 20px;
+    position: inline-block;
+    display: block;
+    margin: 20px;
 }
 
 #top {
@@ -140,12 +146,7 @@ ul a:link {
     position: absolute;
     margin: 0 auto;
 }
-p {
-     position: inline-block;
-     display: block;
-     margin: 0 auto;
 
- }
     
 
 
