@@ -40,7 +40,7 @@ h3 {
 #navigation {
     position: relative;
     display: block;
-    top: 20px;
+    top: 10px;
 }
 
 #myname {
@@ -49,6 +49,7 @@ h3 {
     display: block;
     float: left;
     left: 50px;
+    top: 10px;
     
 }
 #namelink {
