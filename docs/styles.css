@@ -8,9 +8,9 @@ html {
 
 body {
     background-image: url(images/IMG_1138.JPG);
+    background-color: rgb(83, 0, 192);
     background-position-y: 20%;
     background-position-x: 100%;
-    background-repeat: no-repeat;
     width: 80%;
     float: none;
     position: absolute;
