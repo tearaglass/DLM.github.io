@@ -21,7 +21,7 @@ h1 {
     font-size: 40px;
     font-family: 'Lakki Reddy';
     color: rgb(188, 207, 116);
-    text-shadow: 3px 1px #fdc1d3;
+    text-shadow: 3px 1px #ff98b7;
 }
 
 h2 {
@@ -53,13 +53,13 @@ p {
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    height: 180px;
+    height: 155px;
     display: block;
 }
 
 #namelink {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 228, 228);
     width: 50%;
     position: relative;
     margin: 0 auto;
@@ -69,11 +69,11 @@ p {
 }
 
 #top a:hover{
-    color: #4d0d20;
+    color: rgb(255, 239, 239);
 }
 
 #top a:active {
-    color:#4d0d20;
+    color:rgb(255, 228, 228);
 }
 
 #navigation {
@@ -81,7 +81,7 @@ p {
     border-color: black;
     border-width: 1px;
     background-color: #f7064e;
-    height: 40px;
+    height: 35px;
     width: 100%;
     padding-right: 30px;
 }
@@ -96,32 +96,32 @@ p {
 }  
 
 li {
-    font-size: 30px;
+    font-size: 23px;
     font-family: 'Marck Script', cursive;
     text-align: right;
     display: inline-block;
-    height: 10px;
+    
     position: relative;
     margin: 5px;
-    left: 25%;
+    left: 20%;
     }
 
 #top ul a:link {
-    color: #fec771;
+    color: #ffe6c2;
     text-decoration: none;
 }
 
     #top ul a:visited{
-        color: #fec771;
+        color: #ffe6c2;
     }
 
         #top ul a:hover {
-            color: #ffe6c2;
+            color: #faca86;
             font-style: italic;
         }
 
             #top ul a:active {
-                color:#ffe6c2;
+                color:#faca86;
                 font-style: italic;
             }
             
@@ -142,7 +142,7 @@ li {
 }
 
 #middle a:link {
-    color: #ff9d0a;
+    color: #ffbf5e;
     text-decoration: none;
     display: inline-block;
     text-align: center;
