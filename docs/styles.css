@@ -9,7 +9,7 @@ html {
 body {
     background-image: url(images/IMG_1138.JPG);
     background-position-y: 20%;
-    background-position-x: 30%;
+    background-position-x: 100%;
     background-repeat: no-repeat;
     width: 80%;
     float: none;
@@ -30,6 +30,7 @@ h1 {
 h2 {
     font-size: 30px;
     font-family: 'Marck Script', cursive;
+    letter-spacing: .05em;
 }
 
 h3 {
