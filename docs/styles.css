@@ -7,7 +7,7 @@ html {
   }
 
 body {
-    background-color: #e6e56c;
+    background-color: rgb(255, 96, 123);
     width: 80%;
     float: none;
     position: absolute;
@@ -20,8 +20,8 @@ body {
 h1 {
     font-size: 40px;
     font-family: 'Lakki Reddy';
-    color: #94aa2a;
-    text-shadow: 3px 2px #3a3d2b;
+    color: #2aaa75;
+    text-shadow: 3px 2px #c282b4;
 }
 
 h2 {
@@ -31,7 +31,7 @@ h2 {
 
 h3 {
     font-family: 'Roboto Slab', serif;
-    color: #9dab86;
+    color: #861f5f;
     font-size: 20px;
     margin: 20px;
     display: block;
@@ -48,7 +48,7 @@ p {
 }
 
 #top {
-    background-image: url("images/IMG_7599.JPG");
+    background-color: rgb(187, 218, 211);
     width: 100%;
     border-style: solid;
     border-color: black;
@@ -59,7 +59,7 @@ p {
 
 #namelink {
     text-decoration: none;
-    color: #94aa2a;
+    color: #20332b;
     width: 50%;
     position: relative;
     margin: 0 auto;
@@ -71,29 +71,12 @@ p {
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    background-color: #55442a;
+    background-color: #2aaa75;
     height: 40px;
     width: 100%;
     padding-right: 30px;
 }
 
-/*  
-
-    top: 10px;
-    margin: 20px;
-    height: 20px;
-
-
-#myname {
-    height: 20px;
-    position: absolute;
-    display: block;
-    float: left;
-    left: 50px;
-    top: 10px;
-    width: 90%;
-}
-*/
 #headnav {
     list-style-type: none;
     display: inline-block;
@@ -137,7 +120,7 @@ ul a:link {
 
 
 #middle {
-    background-color: #e5d8bf;
+    background-color: #e5d6bf;
     width: 100%;
     border-style: solid;
     border-width: 1px;
