@@ -7,7 +7,7 @@ html {
   }
 
 body {
-    background-color: rgb(255, 96, 123);
+    background-color: white;
     width: 80%;
     float: none;
     position: absolute;
@@ -20,8 +20,8 @@ body {
 h1 {
     font-size: 40px;
     font-family: 'Lakki Reddy';
-    color: #2aaa75;
-    text-shadow: 5px 2px #c282b4;
+    color: rgb(188, 207, 116);
+    text-shadow: 3px 1px #e4bcdb;
 }
 
 h2 {
@@ -31,7 +31,7 @@ h2 {
 
 h3 {
     font-family: 'Roboto Slab', serif;
-    color: #861f5f;
+    color: rgb(7, 11, 53);
     font-size: 20px;
     margin: 20px;
     display: block;
@@ -48,7 +48,7 @@ p {
 }
 
 #top {
-    background-color: rgb(187, 218, 211);
+    background-color: rgb(132, 163, 221);
     width: 100%;
     border-style: solid;
     border-color: black;
@@ -59,7 +59,7 @@ p {
 
 #namelink {
     text-decoration: none;
-    color: #332029;
+    color: rgb(12, 29, 185);
     width: 50%;
     position: relative;
     margin: 0 auto;
@@ -69,11 +69,11 @@ p {
 }
 
 #top a:hover{
-    color: rgb(187, 218, 211);
+    color: rgb(83, 97, 224);
 }
 
 #top a:active {
-    color:rgb(187, 218, 211);
+    color:rgb(83, 97, 224);
 }
 
 #navigation {
@@ -106,21 +106,21 @@ li {
     left: 25%;
     }
 
-ul a:link {
+#top ul a:link {
     color: #fec771;
     text-decoration: none;
 }
 
-    ul a:visited{
+    #top ul a:visited{
         color: #fec771;
     }
 
-        ul a:hover {
-            color: #fec771;
+        #top ul a:hover {
+            color: #f5c57d;
             font-style: italic;
         }
 
-            ul a:active {
+            #top ul a:active {
                 color:#ebd5b3;
                 font-style: italic;
             }
@@ -142,7 +142,7 @@ ul a:link {
 }
 
 #middle a:link {
-    color: #332029;
+    color: rgb(139, 151, 255);
     text-decoration: none;
     display: inline-block;
     text-align: center;
@@ -152,11 +152,11 @@ ul a:link {
 }
 
 #middle a:hover {
-    color:#2aaa75;
+    color:rgb(83, 97, 224);
 }
 
 #middle a:active{
-    color:#2aaa75;
+    color:rgb(83, 97, 224);
 }
     
 
