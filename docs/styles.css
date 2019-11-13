@@ -7,7 +7,7 @@ html {
   }
 
 body {
-    background-color: rgb(167, 255, 4);
+    background-image: url(images/IMG_1138.JPG);
     width: 80%;
     float: none;
     position: absolute;
@@ -48,7 +48,7 @@ p {
 }
 
 #top {
-    background-color: rgb(92, 1, 54);
+    background-color: lightyellow;
     width: 100%;
     border-style: solid;
     border-color: black;
@@ -81,7 +81,7 @@ p {
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    background-color: #f7064e;
+    background-color: #4400ff;
     height: 50px;
     width: 100%;
     padding-right: 30px;
@@ -144,7 +144,7 @@ li {
 }
 
 #middle a:link {
-    color: #ffbf5e;
+    color: #7c5eff;
     text-decoration: none;
     display: inline-block;
     text-align: center;
@@ -154,11 +154,11 @@ li {
 }
 
 #middle a:hover {
-    color:#fdd292;
+    color:#92d2fd;
 }
 
 #middle a:active{
-    color:#fdd292;
+    color:#92d2fd;
 }
     
 
