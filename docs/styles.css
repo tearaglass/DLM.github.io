@@ -63,7 +63,7 @@ p {
 
 #namelink {
     text-decoration: none;
-    color: rgb(252, 182, 225);
+    color: rgb(252, 160, 217);
     width: 50%;
     position: relative;
     margin: 0 auto;
@@ -89,6 +89,8 @@ p {
     height: 50px;
     width: 100%;
     padding-right: 30px;
+    display: block;
+    position: absolute;
 }
 
 #headnav {
@@ -99,9 +101,10 @@ p {
     margin: 0 auto;
     padding-left: 10px;
     padding-bottom: 10px;
+    position: absolute;
 }  
 
-li {
+#top li {
     font-size: 30px;
     font-family: 'Marck Script', cursive;
     text-align: right;
@@ -164,57 +167,6 @@ li {
 #middle a:active{
     color:#92d2fd;
 }
-    
-
-
-
-/*
-#projects {
-    position: fixed;
-    width:50px;
-    display:block;
-    float: left;
-    padding: 10px;
-    top: 90px;
-    left: 50px;
-}
-
-#cv {
-    position: fixed;
-    width: 50px;
-    display:block;
-    float: left;
-    padding: 10px;
-    left: 265px;
-    top: 90px;
-}
-
- #contact {
-    position: fixed;
-    width: 50px;
-    display:block;
-    float: left;
-    padding: 10px;
-    left: 450px;
-    top: 90px;
-}
-*/
-        /*
-            #viewer {
-                top: 80px;
-                left: 50%;
-                border: 3px;
-                border-style: solid;
-                border-color: white;
-                height: 600px;
-                width: 620px;
-                box-shadow: 5px 5px 5px 3px rgb(252, 215, 238);
-                position: relative;
-                float: right;
-                background-color: lightyellow;
-            }
-            */
-
 
 /*scrollbar*/
 /* width */
@@ -236,3 +188,61 @@ li {
   ::-webkit-scrollbar-thumb:hover {
     background-color: rgb(99, 2, 255);
   }
+  
+#bottom {
+    background-color: lightyellow;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 170px;
+    display: block;
+    top: 55%;
+}
+  #bottomnav {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: #4400ff;
+    height: 50px;
+    width: 80%;
+    display: block;
+    position: fixed;
+    top: 55%;
+}
+
+#socials {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    top: 55%;
+}
+#bottom li {
+    font-size: 30px;
+    font-family: 'Marck Script', cursive;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    }
+
+#bottom ul a:link {
+    color: #ffe6c2;
+    text-decoration: none;
+}
+
+    #bottom ul a:visited{
+        color: #ffe6c2;
+    }
+
+        #bottom ul a:hover {
+            color: #faca86;
+            font-style: italic;
+        }
+
+            #bottom ul a:active {
+                color:#faca86;
+                font-style: italic;
+            }
